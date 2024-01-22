@@ -17,28 +17,9 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link rel="stylesheet" href="styles/hokey.css">
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-      .manrope {
-        font-family: "Manrope", sans-serif;
-      }
-      .btn-custom {
-        display: inline-flex;
-        padding: 15px 24px;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        border-radius: 8px;
-        background: #ff4240;
-        color: #fff;
-        text-align: center;
-        font-size: 20px;
-        font-weight: 700;
-      }
-      .back-color {
-        background: #ff4240;
-      }
-    </style>
+    
   </head>
   <body class="manrope">
     <header class="mx-auto container mb-6 p-2">
@@ -96,31 +77,100 @@
       <!-- banner section -->
       <section class="container mx-auto p-4">
         <div class="carousel w-full">
-            <!-- slide-1 -->
+          <!-- slide-1 -->
           <div id="slide1" class="carousel-item relative w-full">
-            <img
-              src="Images/1.png"
-              class="w-full"
-            />
+            <img src="Images/1.png" class="w-full" />
             <div
               class="absolute flex gap-3 justify-between transform -translate-y-1/2 left-10 left-16 bottom-10"
             >
-              <a href="#slide2" class="btn btn-circle text-white bg-black border-0">❮</a>
-              <a href="#slide2" class="btn btn-circle  text-white bg-black border-0">❯</a>
+              <a
+                href="#slide2"
+                class="btn btn-circle text-white bg-black border-0"
+                >❮</a
+              >
+              <a
+                href="#slide2"
+                class="btn btn-circle text-white bg-black border-0"
+                >❯</a
+              >
             </div>
           </div>
           <!-- slide 2 -->
           <div id="slide2" class="carousel-item relative w-full">
-            <img
-              src="Images/banner2.jpg"
-              class="w-full rounded-xl"
-            />
+            <img src="Images/banner2.jpg" class="w-full rounded-xl" />
             <div
-            class="absolute flex gap-3 justify-between transform -translate-y-1/2 left-10 left-16 bottom-10"
+              class="absolute flex gap-3 justify-between transform -translate-y-1/2 left-10 left-16 bottom-10"
             >
-              <a href="#slide1" class="btn btn-circle  text-white bg-black border-0">❮</a>
-              <a href="#slide1" class="btn btn-circle  text-white bg-black border-0">❯</a>
+              <a
+                href="#slide1"
+                class="btn btn-circle text-white bg-black border-0"
+                >❮</a
+              >
+              <a
+                href="#slide1"
+                class="btn btn-circle text-white bg-black border-0"
+                >❯</a
+              >
             </div>
+          </div>
+        </div>
+        <div class="line mx-auto mt-16"></div>
+      </section>
+      <!-- Professional part start -->
+      <section class="mx-auto container p-2">
+        <div class="mt-8">
+          <h2 class="heading">Professional Hockeys Club</h2>
+          <p class="para px-3 lg:px-96">
+            This is your chance to be a champion! Make sure you are in it, to
+            win it! Plus, County and Area Masters Championships.
+          </p>
+        </div>
+        <div class="line mx-auto mt-6"></div>
+        <div class="flex flex-col lg:flex-row gap-3 justify-around my-4">
+          <!-- Progress 1 -->
+          <div class="text-center p-6">
+            <div
+              class="radial-progress text-[#ff4240]"
+              style="--value: 87"
+              role="progressbar"
+            >
+              <span class="text-gray-950 font-extrabold">87%</span>
+            </div>
+            <h4 class="my-4 text-gray-950 font-extrabold">Prayer Facility</h4>
+            <p>teams battle to be crowned Super 6s champions</p>
+          </div>
+          <div class="text-center p-6">
+            <div
+              class="radial-progress text-[#49D293]"
+              style="--value: 95"
+              role="progressbar"
+            >
+              <span class="text-gray-950 font-extrabold">95%</span>
+            </div>
+            <h4 class="my-4 text-gray-950 font-extrabold">Experienced Coach</h4>
+            <p>teams battle to be crowned Super 6s champions</p>
+          </div>
+          <div class="text-center p-6">
+            <div
+              class="radial-progress text-orange-400"
+              style="--value: 90"
+              role="progressbar"
+            >
+              <span class="text-gray-950 font-extrabold">90%</span>
+            </div>
+            <h4 class="my-4 text-gray-950 font-extrabold">Senior Player</h4>
+            <p>teams battle to be crowned Super 6s champions</p>
+          </div>
+          <div class="text-center p-6">
+            <div
+              class="radial-progress text-[#4C8DF1]"
+              style="--value: 80"
+              role="progressbar"
+            >
+              <span class="text-gray-950 font-extrabold">80%</span>
+            </div>
+            <h4 class="my-4 text-gray-950 font-extrabold">Training Ground</h4>
+            <p>teams battle to be crowned Super 6s champions</p>
           </div>
         </div>
       </section>
