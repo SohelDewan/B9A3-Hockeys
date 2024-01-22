@@ -41,7 +41,7 @@
     </style>
   </head>
   <body class="manrope">
-    <header class="mx-auto container">
+    <header class="mx-auto container mb-6 p-2">
       <nav>
         <div class="navbar bg-base-100">
           <div class="navbar-start">
@@ -93,9 +93,36 @@
       </nav>
     </header>
     <main>
-        <!-- banner section -->
-      <section>
-        
+      <!-- banner section -->
+      <section class="container mx-auto p-4">
+        <div class="carousel w-full">
+            <!-- slide-1 -->
+          <div id="slide1" class="carousel-item relative w-full">
+            <img
+              src="Images/1.png"
+              class="w-full"
+            />
+            <div
+              class="absolute flex gap-3 justify-between transform -translate-y-1/2 left-10 left-16 bottom-10"
+            >
+              <a href="#slide2" class="btn btn-circle text-white bg-black border-0">❮</a>
+              <a href="#slide2" class="btn btn-circle  text-white bg-black border-0">❯</a>
+            </div>
+          </div>
+          <!-- slide 2 -->
+          <div id="slide2" class="carousel-item relative w-full">
+            <img
+              src="Images/banner2.jpg"
+              class="w-full rounded-xl"
+            />
+            <div
+            class="absolute flex gap-3 justify-between transform -translate-y-1/2 left-10 left-16 bottom-10"
+            >
+              <a href="#slide1" class="btn btn-circle  text-white bg-black border-0">❮</a>
+              <a href="#slide1" class="btn btn-circle  text-white bg-black border-0">❯</a>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
     <footer></footer>
