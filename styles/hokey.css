@@ -64,6 +64,7 @@
   font-size: 18px;
   font-weight: 800;
   line-height: 32px;
+  text-wrap: wrap;
 }
 form label {
   color: #131318;
