@@ -15,6 +15,12 @@
   font-size: 20px;
   font-weight: 700;
 }
+.btn-small{
+  font-size: 16px;
+  padding: 10px 16px;
+  background: #ff4240;
+  color: #fff;
+}
 .texth3 {
   color: #131318;
   font-family: Manrope;
